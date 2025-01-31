@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Jua&family=Rammetto+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div class="score" style="display: none;"></div>
+        <div id="currentScore"></div>
+        <audio id="hitSound" src="damage.wav"></audio>
+
+        <div class="over" style="display: none;">test game over page</div>
+        <div class="invisibleDiv" style="display: none;">Test</div>
+
+
+        <div class="threeHearts" style="display: none;">
+            <img src="3hearts.png" width="150px" style="position: absolute;left:50px;top:0px">
+        </div>
+        <div class="twoHearts" style="display: none;">
+            <img src="2hearts.png" width="150px" style="position: absolute;left:50px;top:0px">
+        </div>
+        <div class="oneHeart" style="display: none;">
+            <img src="1heart.png" width="150px" style="position: absolute;left:50px;top:0px">
+        </div>
+        <img src="mousesmall.gif" class="player" style="position: absolute;left:0px;top:0px">
+        <img src="rathole.png" class="hole">
+        <script src="script.js"></script>
+    </body>
+</html>

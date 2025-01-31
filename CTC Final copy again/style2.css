@@ -1,0 +1,219 @@
+body {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffd587;
+}
+
+.rammetto-one-regular {
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.capriola-regular {
+    font-family: "Capriola", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.jua-regular {
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button {
+    background-color: #f37222;
+    border: none;
+    color: white;
+    width: 600px;
+    text-align: center;
+    padding: 20px 45px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*display: inline-block;*/
+    font-size: 50px;
+    font-family: "Capriola";
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    border-radius: 15px;
+    
+
+}
+
+.button:hover {
+    background-color: white; /* Green */
+    color: #f37222;
+    transition-duration: 0.2s;
+    border: 10px solid #f37222;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+  }
+
+h1 {
+    font-family: "Rammetto One";
+    color: #5c3114;
+    font-size: 100px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Rammetto One";
+    color: #5c3114;
+    font-size: 50px;
+    margin-bottom: -20px;
+
+}
+
+.button2 {
+    background-color: white;
+    position: fixed;
+    border: none;
+    color: #f37222;
+    width: auto;
+    text-align: center;
+    padding: 15px 30px;
+    justify-content: center;
+    right: 30px;
+    bottom: 30px;
+    /*display: inline-block;*/
+    font-size: 30px;
+    font-family: "Capriola";
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    border-radius: 15px;
+}
+
+.button2:hover {
+    background-color: #f37222;
+    color: white;
+    transition-duration: 0.2s;
+    border: 10px solid #f37222;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+  }
+
+.p {
+    font-family: "Capriola", serif;
+    font-size: 20px;
+}
+
+.score {
+  font-family: "Jua", serif;
+  font-size: 100px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.scoreCat {
+  text-align: center;
+  font-family: "Jua", serif;
+  font-size: 100px;
+  color: #5c3114;
+}
+
+.rightBlock {
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+
+.scoreNameCat {
+  font-family: "Capriola", serif;
+  font-size: 30px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.scoreName {
+  font-family: "Capriola", serif;
+  font-size: 30px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.leftBlock {
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.fullBlock {
+  display: flex;
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 300px;
+  padding-bottom: 75px;
+}
+
+.menuTest {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure it covers the entire screen without distortion */
+  z-index: -1;
+
+}
+
+.playerHeading {
+  font-family: "Rammetto One";
+  color: #5c3114;
+  font-size: 30px;
+  margin-bottom: -20px;
+
+}
+
+.directionWrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 200px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.scenerios {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 10px;
+}
+
+.container{
+  background-color:aliceblue;
+  padding:30px;
+  width: 300px;
+  border-radius: 30px;
+}
+.beCareful {
+  font-family: "Rammetto One";
+  color: #5c3114;
+  font-size: 30px;
+}
+
