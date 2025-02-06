@@ -7,46 +7,249 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Capriola", serif; /* Set a default font for body */
 }
 
-h1, .title {
-  font-family: "Rammetto One", serif;
+.rammetto-one-regular {
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.capriola-regular {
+    font-family: "Capriola", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.jua-regular {
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button {
+    background-color: #f37222;
+    border: none;
+    color: white;
+    width: 600px;
+    text-align: center;
+    padding: 20px 45px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*display: inline-block;*/
+    font-size: 50px;
+    font-family: "Capriola";
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    border-radius: 15px;
+    
+
+}
+
+.button:hover {
+    background-color: white;
+    color: #f37222;
+    transition-duration: 0.2s;
+    border: 10px solid #f37222;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+  }
+
+.button2 {
+    background-color: white;
+    position: fixed;
+    border: none;
+    color: #f37222;
+    width: auto;
+    text-align: center;
+    padding: 15px 30px;
+    justify-content: center;
+    right: 30px;
+    bottom: 30px;
+    /*display: inline-block;*/
+    font-size: 30px;
+    font-family: "Capriola";
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    border-radius: 15px;
+}
+
+.button2:hover {
+    background-color: #f37222;
+    color: white;
+    transition-duration: 0.2s;
+    border: 10px solid #f37222;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+  }
+
+.score {
+  font-family: "Jua", serif;
+  font-size: 100px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.scoreCat {
+  text-align: center;
+  font-family: "Jua", serif;
+  font-size: 100px;
   color: #5c3114;
 }
 
+.rightBlock {
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+
+.scoreNameCat {
+  font-family: "Capriola", serif;
+  font-size: 30px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.scoreName {
+  font-family: "Capriola", serif;
+  font-size: 30px;
+  color: #5c3114;
+  text-align: center;
+}
+
+.leftBlock {
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.fullBlock {
+  display: flex;
+  justify-content: center; /* Horizontally center the content inside */
+  align-items: center; /* Vertically center the content inside */
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 300px;
+  padding-bottom: 75px;
+}
+
+.menuTest {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure it covers the entire screen without distortion */
+  z-index: -1;
+
+}
+
+.playerHeading {
+  font-family: "Rammetto One";
+  color: #5c3114;
+  font-size: 30px;
+
+}
+
 h1 {
+  font-family: "Rammetto One";
+  color: #5c3114;
   font-size: 100px;
+  text-align: center;
 }
 
 .title {
+  font-family: "Rammetto One";
+  color: #5c3114;
   font-size: 50px;
+
 }
 
 .p {
   font-family: "Capriola", serif;
   font-size: 20px;
-  color: #5c3114;
+  color:#5c3114;
 }
 
-.playerHeading {
-  font-family: "Rammetto One", serif;
+
+.goal {
+  font-family: "Capriola", serif;
+  font-size: 20px;
+  color:#5c3114;
+  width: 300px;
+  text-align: center;
+
+}
+
+.directionWrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 100px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.scenerios {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  column-gap: 15px;
+}
+
+.container{
+  background-color:#f8e8c9;
+  padding:30px;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+
+}
+.beCareful {
+  font-family: "Capriola", serif;
   color: #5c3114;
   font-size: 30px;
 }
 
-.directionWrapper, .scenerios, .wrapperLines {
+.click {
   display: flex;
-  justify-content: center;
-  width: fit-content;
-  margin: auto;
-  padding-top: 30px;
+  column-gap: 20px;
 }
 
-.wrapperRat, .wrapperCat {
+.controls {
   display: flex;
-  flex-direction: column;
+  column-gap: 0px;
+}
+
+.wrapperCat, .wrapperRat {
+  width: fit-content;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   padding: 40px;
   padding-top: 20px;
@@ -54,100 +257,33 @@ h1 {
   border-style: dashed;
   border-color: white;
   border-width: 10px;
-}
-
-.controls, .click {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 20px;
-}
-
-.container {
-  background-color: #f8e8c9;
-  padding: 30px;
-  width: 300px;
-  height: 400px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.beCareful {
-  font-family: "Capriola", serif;
-  color: #5c3114;
-  font-size: 30px;
-}
-
-.button, .button2 {
-  font-family: "Capriola", serif;
-  border-radius: 15px;
-  cursor: pointer;
-  transition-duration: 0.2s;
-}
-
-.button {
-  background-color: #f37222;
-  color: white;
-  width: 600px;
-  text-align: center;
-  padding: 20px 45px;
-  font-size: 50px;
-  border: none;
-}
-
-.button:hover {
-  background-color: white;
-  color: #f37222;
-  border: 10px solid #f37222;
-}
-
-.button2 {
-  background-color: white;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  color: #f37222;
-  padding: 15px 30px;
-  font-size: 30px;
-  border: none;
-}
-
-.button2:hover {
-  background-color: #f37222;
-  color: white;
-  border: 10px solid #f37222;
-}
-
-.score, .scoreCat, .scoreName, .scoreNameCat {
-  font-family: "Jua", serif;
-  color: #5c3114;
-  text-align: center;
-}
-
-.score, .scoreCat {
-  font-size: 100px;
-}
-
-.scoreName, .scoreNameCat {
-  font-size: 30px;
+  
 }
 
 .wrapperLines {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   column-gap: 15px;
+  padding-top: 50px;
+}
+
+.arrowKeySpacing {
+  padding-right: 30px;
 }
 
 .objective {
   font-family: "Capriola", serif;
   font-size: 25px;
-  color: #5c3114;
+  color:#5c3114;
 }
 
 .pLeft {
   font-family: "Capriola", serif;
   font-size: 20px;
-  color: #5c3114;
+  color:#5c3114;
   text-align: left;
   padding-left: 20px;
   width: 200px;
@@ -155,7 +291,8 @@ h1 {
 
 .menuDirections {
   display: flex;
-  justify-content: center;
+  text-align: center;
+  margin: auto;
   column-gap: -10px;
   padding-top: 50px;
   padding-bottom: 15px;
@@ -166,74 +303,5 @@ h1 {
   color: #f37222;
   font-size: 30px;
   margin-right: 20px;
-}
-
-.arrowKeySpacing {
-  padding-right: 30px;
-}
-
-/* Add responsiveness */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 60px;
-  }
-
-  .title {
-    font-size: 35px;
-  }
-
-  .button {
-    width: 80%;
-    font-size: 30px;
-  }
-
-  .container {
-    width: 90%;
-    height: auto;
-  }
-
-  .directionWrapper {
-    flex-direction: column;
-    row-gap: 20px;
-  }
-
-  .wrapperRat, .wrapperCat {
-    width: 90%;
-    padding: 20px;
-  }
-
-  .button2 {
-    bottom: 20px;
-    right: 20px;
-    font-size: 25px;
-    padding: 10px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 50px;
-  }
-
-  .title {
-    font-size: 30px;
-  }
-
-  .button {
-    width: 90%;
-    font-size: 25px;
-  }
-
-  .button2 {
-    bottom: 15px;
-    right: 15px;
-    font-size: 20px;
-    padding: 8px 18px;
-  }
-
-  .container {
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
+  align-items: center;
 }
