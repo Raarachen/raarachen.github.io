@@ -30,7 +30,7 @@ class Mousetrap {
 
     show() {
         const newImage = document.createElement('img');
-        newImage.src = 'mousetrapfinalfr.PNG';
+        newImage.src = 'mousetrapfinalfr.png';
         
         newImage.style.position = 'absolute';
         newImage.style.left = `${this.x - newImage.width / 2}px`;
