@@ -30,9 +30,8 @@ class Mousetrap {
 
     show() {
         const newImage = document.createElement('img');
-        newImage.src = 'mousetrapfix.png';
+        newImage.src = 'mousetrapfinalfr.PNG';
         
-        // Image position and styling
         newImage.style.position = 'absolute';
         newImage.style.left = `${this.x - newImage.width / 2}px`;
         newImage.style.top = `${this.y - newImage.height / 2}px`;
@@ -51,19 +50,15 @@ class Mousetrap {
     }
 
     collision() {
-        console.log(hearts)
-        // Log element to see if it's defined
-        //console.log('Checking collision...');
 
         if (this.element) {
-            //console.log('Element exists, checking collision with player...');
             
             if (isCollide(player, this.element)) {
-                //console.log('Collision detected!');
                 var audio = new Audio ('damage.wav');
                 audio.play();
                 hearts -= 1;
                 this.element.remove();  // Remove the element if collision is true
+
                 currentSpeed = normalSpeed / 2;
                 setTimeout(() => {
                     currentSpeed = normalSpeed; // Restore original speed
@@ -109,8 +104,6 @@ document.addEventListener('contextmenu', function(e) {
 }*/
 
 
-
-
 player.addEventListener("click", (event) => {
     catWin += 1;
     updateScore(); 
@@ -131,6 +124,9 @@ function updateScore() {
 })*/
 
 player.setAttribute('draggable', false)
+threeHearts.setAttribute('draggable', false)
+twoHearts.setAttribute('draggable', false)
+oneHeart.setAttribute('draggable', false)
 
 
 let isMovingLeft = false;
@@ -310,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mouseWin = Number(localStorage.getItem('mouseWin')) || 0; // Default to 0 if not found
         console.log(catWin, mouseWin)
         updateScore()
-        // Display the scores on the page
+
         
 
 
@@ -334,7 +330,3 @@ setInterval(()=>{
 }, 1000)
 
 //TEST FEEDBACK: If mouse DRAG, also brings to cat wins page. Issue with 
-
-
-    
-    

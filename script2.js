@@ -6,7 +6,7 @@ let mouseWin
 playagain.addEventListener("click", (event)=>{
     localStorage.setItem("catWin", catWin);
     localStorage.setItem("mouseWin", mouseWin);
-    window.location.href = "index.html";
+    window.location.href = "game.html";
 })
 
 menu.addEventListener("click", (event)=>{
@@ -14,7 +14,7 @@ menu.addEventListener("click", (event)=>{
     let mouseWin = 0;
     localStorage.setItem("catWin", catWin);
     localStorage.setItem("mouseWin", mouseWin);
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 
 })
 

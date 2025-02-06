@@ -6,5 +6,5 @@ how.addEventListener("click", (event)=>{
 })
 
 play.addEventListener("click", (event)=>{
-    window.location.href = "index.html";
+    window.location.href = "game.html";
 })

@@ -11,43 +11,56 @@
     <body>
         <h1 class="title">How To Play</h1>
         <div class="directionWrapper">
-            <div>
+            <div class="wrapperRat">
                 <h2 class="playerHeading">Player 1: RAT</h2>
-                <p class="p">Survive and reach the hole within 10 seconds.</p>
-                <img src="ratinhole.jpg" height="150px" width="auto">
+                <p class="objective">Survive and reach the hole within 10 seconds</p>
+                <img src="ratruntohole.PNG" height="250px" width="auto">
                 <div class="controls">
-                    <img src="arrowkeys.png" height="75px" width="auto">
-                    <p class="p">Use arrow keys or WASD to move.</p>
+                    <img src="keyboard.svg" height="auto" width="100px">
+                    <p class="pLeft">Use arrow keys or WASD to move</p>
                 </div>
             </div>
-            <div>
+            <div class="wrapperCat">
                 <h2 class="playerHeading">Player 2: CAT</h2>
-                <p class="p">Catch the rat.</p>
-                <img src="catcaughtrat.jpg" height="150px" width="auto">
-                <p class="p">Left click on the rat to catch it</p>
-                <p class="p">Right click to place traps</p>
+                <p class="objective">Catch the rat before it reaches the hole</p>
+                <img src="catcaughtraat.PNG" height="300px" width="auto">
+                <div class="click">
+                    <img src="mouseleftclick.svg" width="40px" height="auto">
+                    <p class="p">Left click on the rat to catch it</p>
+                </div>
+                <div class="click">
+                    <img src="mouserightclick.svg" width="40px" height="auto">
+                    <p class="p">Right click to place traps</p>
+                </div>
             </div>
         </div>
-        <h2 class="beCareful">Be Careful!</h2>
+        <div class="wrapperLines">
+            <img src="3lines.svg" width="20px" height="auto">
+            <h2 class="beCareful">Be Careful!</h2>
+            <img src="3lines copy.svg" width="20px" height="auto">
+        </div>
         <div class="scenerios">
             <div class="container">
-                <p class="p">If the rat runs out of time</p>
-                <img src="">
+                <p class="p">If the rat runs out of time...</p>
+                <img src="timesup.PNG">
                 <p class="p">Rat loses!</p>
             </div>
             <div class="container">
                 <p class="p">Traps slow the rat's movement briefly and decrease health</p>
-                <img src="">
+                <img src="caughtintrapfinal.PNG">
             </div>
             <div class="container">
-                <p class="p">If the rat hits the trap more than 3 times</p>
-                <img src="">
+                <p class="p">If the rat hits the trap more than 3 times...</p>
+                <img src="gravefinal.PNG">
                 <p class="p">Cat wins!</p>
             </div>
         </div>
-        <h2 class="beCareful">Reset the score -></h2>
-
+        <div class="menuDirections">
+            <h2 class="reset">Reset the score by returning to the menu</h2>
+            <img src="arrowformenu.svg" width="60px" height="auto">
+        </div>
         <button class="button2" id="menu">Menu</button>
+
         <script src="scripthow.js"></script>
     </body>
 </html>
